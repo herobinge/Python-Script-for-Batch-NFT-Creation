@@ -6,15 +6,13 @@
 运行上述脚本需要满足以下条件：
 1. Python环境：你需要在你的计算机上安装Python解释器。建议使用Python 3.x版本，因为脚本是使用Python 3语法编写的。
 2. Pillow库：脚本使用Pillow库来处理图像。你需要安装Pillow库，它是Python的一个图像处理库，提供了对图像的打开、编辑和保存等功能。
-3. 你可以使用pip工具在命令行中运行以下命令来安装Pillow库：
+3. 你可以使用pip工具在命令行中运行以下命令来安装Pillow库：  
 `pip install pillow`
 
 图像部件文件夹：脚本父文件夹名称为generatenft，子文件夹 bodies，backgrounds，eyes，mouths，hats。
 你需要按照脚本中定义的文件夹路径和文件名列表的结构，在桌面（或其他位置）创建相应的文件夹，并将图像部件文件放置在正确的子文件夹中。 
 元素命名需要一般按照body1.png，eyes1.png，hat1.png，mouth1.png，background1.png，这种方式来命名。
 
-确保满足以上条件后，你可以通过运行Python脚本来生成NFT图像。在命令行中切换到脚本所在的目录，并执行以下命令：
+确保满足以上条件后，你可以通过运行Python脚本来生成NFT图像。在命令行中切换到脚本所在的目录，并执行以下命令：  
 `python3 generate_nft.py`
 这将运行脚本并生成NFT图像。生成的图像将保存在名为imagenft（你需要在您的桌面创建该文件夹）的文件夹中。
-
-
