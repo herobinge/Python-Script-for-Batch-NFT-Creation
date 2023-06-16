@@ -19,5 +19,5 @@
 元素命名需要一般按照body1.png，eyes1.png，hat1.png，mouth1.png，background1.png，这种方式来命名。
 
 确保满足以上条件后，你可以通过运行Python脚本来生成NFT图像。在命令行中切换到脚本所在的目录，并执行以下命令：    
-`python3 generate_nft.py`
+`python3 generate_nft.py`  
 这将运行脚本并生成NFT图像。生成的图像将保存在名为imagenft（你需要在您的桌面创建该文件夹）的文件夹中。
